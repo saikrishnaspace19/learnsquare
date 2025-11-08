@@ -1,136 +1,250 @@
-/* Reset & Base Styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Segoe UI', sans-serif;
-}
+/* style.css - SmartGrocer Grocery Delivery System (Purple Theme) */
+/* style.css - SmartGrocer Purple Theme */
+/* style.css - SmartGrocer Purple Theme (complete) */
+/* ---------- Existing SmartGrocer Styles ---------- */
+/* ===== Login Page ===== */
+/* ===== Base Reset ===== */
+* { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
-  background-color: #fff9f0;
-  color: #333;
+  font-family: 'Poppins', Arial, sans-serif;
+  background: linear-gradient(135deg, #6a0dad 0%, #8e44ad 45%, #9b59b6 100%);
+  color: #fff;
+  min-height: 100vh;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
 }
 
-/* Navbar */
-.navbar {
-  background-color: #d62828;
-  color: white;
-  padding: 20px;
+/* Header */
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 14px 20px;
+  background: rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(8px);
+  border-bottom: 2px solid rgba(255,255,255,0.08);
 }
 
-.navbar h1 {
-  font-size: 28px;
-}
-
-.navbar nav a {
-  color: white;
-  margin-left: 20px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s;
-}
-
-.navbar nav a:hover {
-  color: #fcbf49;
-}
-
-/* Hero Section */
-.hero {
-  background-image: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1600&h=600');
-  background-size: cover;
-  background-position: center;
-  height: 70vh;
+.brand {
   display: flex;
   align-items: center;
-  justify-content: center;
-  color: white;
-  text-align: center;
-  padding: 0 20px;
+  gap: 10px;
 }
-
-.hero-text h2 {
-  font-size: 48px;
-  margin-bottom: 10px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+.brand .logo {
+  font-size: 28px;
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.4));
 }
-
-.hero-text p {
+h1 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ffda79;
   font-size: 20px;
-  margin-bottom: 20px;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  margin-left: 6px;
 }
 
-.btn {
-  padding: 12px 25px;
-  background-color: #f77f00;
-  color: white;
-  border: none;
+nav a {
+  color: #fff;
+  margin-left: 16px;
   text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-  transition: background 0.3s;
+  font-weight: 600;
+  transition: color 0.28s ease, transform 0.18s ease;
+}
+nav a:hover {
+  color: #ffda79;
+  transform: translateY(-2px);
 }
 
-.btn:hover {
-  background-color: #d62828;
+/* Main area */
+main {
+  padding: 30px 20px;
+  min-height: 70vh;
 }
 
-/* Menu Section */
-.menu-section {
-  padding: 40px 20px;
-  background-color: #fff;
+/* Page title */
+h2 {
   text-align: center;
+  font-size: 28px;
+  color: #ffda79;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.35);
+  font-weight: 700;
 }
 
-.menu-section h2 {
-  font-size: 36px;
-  margin-bottom: 30px;
-  color: #d62828;
-}
-
-/* Grid Layout for Menu Items */
-.menu-items {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
+/* Grid */
+.items-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
   justify-content: center;
-  padding: 0 20px;
+  margin-top: 20px;
+  align-items: flex-start;
 }
 
-/* Card Style */
-.menu-card {
-  background-color: #fefae0;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+/* Card */
+.grocery {
+  background: linear-gradient(180deg, rgba(255,255,255,0.10), rgba(255,255,255,0.06));
+  border-radius: 12px;
+  padding: 14px;
+  width: 220px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+  text-align: center;
+  transition: transform 0.28s ease, box-shadow 0.28s ease;
   overflow: hidden;
-  transition: transform 0.3s;
+  opacity: 0; /* animated in */
+}
+.grocery:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 14px 34px rgba(0,0,0,0.45);
 }
 
-.menu-card:hover {
-  transform: scale(1.05);
-}
-
-.menu-card img {
+/* Image */
+.grocery img {
   width: 100%;
-  height: 200px;
+  height: 150px;
   object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: block;
+  box-shadow: inset 0 -6px 12px rgba(0,0,0,0.08);
 }
 
-.menu-card h3 {
-  padding: 15px;
-  color: #6a040f;
+/* Text */
+.grocery h3 {
+  margin: 8px 0 4px;
+  font-size: 17px;
+  color: #fff;
+}
+.price {
+  font-weight: 700;
+  color: #ffda79;
+  margin-bottom: 6px;
+}
+.desc {
+  font-size: 13px;
+  color: #e6e6e6;
+  margin: 6px 0 10px;
+  min-height: 36px;
+  line-height: 1.3;
+}
+
+/* Add to Cart button (visible and active) */
+.add-btn {
+  background: linear-gradient(180deg, #ffd97a, #ffcf63);
+  color: #4b0066;
+  border: none;
+  padding: 9px 14px;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 6px 14px rgba(75,0,102,0.12);
+  transition: transform 0.12s ease, box-shadow 0.12s ease, opacity 0.12s ease;
+  display: inline-block;
+  margin-top: 8px;
+}
+.add-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 26px rgba(75,0,102,0.2);
+}
+.add-btn:active {
+  transform: scale(0.96);
+  box-shadow: 0 6px 12px rgba(75,0,102,0.14);
+}
+
+/* Quote section */
+.quote-section {
+  text-align: center;
+  padding: 40px 20px;
+  background: rgba(255, 255, 255, 0.06);
+  border-top: 1px solid rgba(255,255,255,0.04);
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  margin-top: 30px;
+  border-radius: 8px;
+}
+.quote-section h3 {
+  font-style: italic;
   font-size: 20px;
+  color: #ffda79;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.quote-section p {
+  font-size: 14px;
+  color: #e0e0e0;
 }
 
 /* Footer */
 footer {
-  background-color: #6a040f;
-  color: white;
+  background: rgba(0, 0, 0, 0.28);
+  color: #ffda79;
   text-align: center;
-  padding: 15px 0;
-  margin-top: 40px;
-  font-size: 14px;
+  padding: 12px 8px;
+  border-top: 2px solid rgba(255,255,255,0.05);
+  margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .items-grid { gap: 14px; }
+}
+@media (max-width: 600px) {
+  .items-grid { flex-direction: column; align-items: center; }
+  .grocery { width: 92%; }
+  h2 { font-size: 22px; }
+}
+
+/* ===== Animations ===== */
+
+/* Fade-in + up animation for cards */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* apply staggered delays */
+.grocery {
+  animation: fadeInUp 0.72s cubic-bezier(.2,.9,.2,1) forwards;
+  opacity: 0;
+}
+.grocery:nth-child(1)  { animation-delay: 0.08s; }
+.grocery:nth-child(2)  { animation-delay: 0.16s; }
+.grocery:nth-child(3)  { animation-delay: 0.24s; }
+.grocery:nth-child(4)  { animation-delay: 0.32s; }
+.grocery:nth-child(5)  { animation-delay: 0.40s; }
+.grocery:nth-child(6)  { animation-delay: 0.48s; }
+.grocery:nth-child(7)  { animation-delay: 0.56s; }
+.grocery:nth-child(8)  { animation-delay: 0.64s; }
+.grocery:nth-child(9)  { animation-delay: 0.72s; }
+.grocery:nth-child(10) { animation-delay: 0.80s; }
+
+/* subtle quote entrance */
+.quote-section {
+  opacity: 0;
+  transform: translateY(12px);
+  animation: fadeInUp 0.9s ease forwards;
+  animation-delay: 1.0s;
+}
+
+/* small accessibility helper: focus-visible */
+.add-btn:focus-visible {
+  outline: 3px solid rgba(255,218,121,0.28);
+  outline-offset: 3px;
+}
+
+/* ensure no disabled cursor anywhere */
+button, .add-btn {
+  cursor: pointer !important;
+}
+
+/* small scrollbar styling for desktops */
+@supports (scrollbar-color: auto) {
+  ::-webkit-scrollbar { height: 8px; width: 8px; }
+  ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.12); border-radius: 8px; }
+  ::-webkit-scrollbar-track { background: transparent; }
 }

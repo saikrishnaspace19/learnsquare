@@ -1,132 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Vivaha Bhojanambu</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SmartGrocer – Online Grocery Delivery</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <div class="navbar">
-      <h1>VIVAHA BHOJANAMBU</h1>
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">Menu</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-      </nav>
+    <div class="brand">
+      <span class="logo">🛒</span>
+      <h1>SmartGrocer</h1>
     </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#cart">Cart</a>
+      <a href="#checkout">Checkout</a>
+    </nav>
   </header>
 
-  <section class="hero">
-    <div class="hero-text">
-      <h2>Traditional Flavours, Royal Feasts</h2>
-      <p>Discover authentic South Indian cuisine served with love.</p>
-      <a href="#" class="btn">Explore Menu</a>
+  <main id="content">
+    <h2>Available Grocery Items</h2>
+
+    <div class="items-grid">
+      <article class="grocery">
+        <img src="https://m.media-amazon.com/images/I/71LzgQLUJsL.jpg" alt="Rice" />
+        <h3>Rice (1kg)</h3>
+        <p class="price">₹95</p>
+        <p class="desc">Premium quality white rice.</p>
+        <button class="add-btn">Add to Cart</button>
+      </article>
+
+      <article class="grocery">
+        <img src="https://i5.walmartimages.com/seo/King-Arthur-Flour-100-Premium-Whole-Wheat-Flour-80-oz_c0e301df-ccba-45ad-a6d1-a2705f30ad74.af51f0757945efc404ff49be2189e826.png" alt="Wheat Flour" />
+        <h3>Wheat Flour (1kg)</h3>
+        <p class="price">₹45</p>
+        <p class="desc">Freshly milled wheat flour for soft chapatis.</p>
+        <button class="add-btn">Add to Cart</button>
+      </article>
+
+      <article class="grocery">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2021/7/GU/UR/LF/134036991/freedom-oil-jpg-500x500.jpg" alt="Cooking Oil" />
+        <h3>Freedom oil (1L)</h3>
+        <p class="price">₹150</p>
+        <p class="desc">Refined sunflower oil for daily use.</p>
+        <button class="add-btn">Add to Cart</button>
+      </article>
+
+      <article class="grocery">
+        <img src="https://tse2.mm.bing.net/th/id/OIP.Ja-f1RjQ1hbigDuy09d0EQHaIq?pid=Api&P=0&h=180" alt="Sugar" />
+        <h3>Sugar (1kg)</h3>
+        <p class="price">₹50</p>
+        <p class="desc">Pure white granulated sugar.</p>
+        <button class="add-btn">Add to Cart</button>
+      </article>
+
+      <article class="grocery">
+        <img src="https://tse4.mm.bing.net/th/id/OIP.FSJypuZdDiv80gUjxBmQRQHaHa?pid=Api&P=0&h=180" alt="Tea Powder" />
+        <h3>Tea Powder (250g)</h3>
+        <p class="price">₹20</p>
+        <p class="desc">Strong aroma tea powder for refreshing taste.</p>
+        <button class="add-btn">Add to Cart</button>
+      </article>
+
+      <article class="grocery">
+        <img src="https://tse2.mm.bing.net/th/id/OIP.rslrsuiAnuPNJSVjmCBWJgHaHa?pid=Api&P=0&h=180" alt="Milk" />
+        <h3>Milk (1L)</h3>
+        <p class="price">₹30</p>
+        <p class="desc">Fresh and pure pasteurized milk.</p>
+        <button class="add-btn">Add to Cart</button>
+      </article>
+
+      <article class="grocery">
+        <img src="https://tse4.mm.bing.net/th/id/OIP.i40ZHGuDErYGudmOg9db6QHaEK?pid=Api&P=0&h=180" alt="Eggs" />
+        <h3>Eggs (6 pcs)</h3>
+        <p class="price">₹60</p>
+        <p class="desc">Farm fresh eggs for a protein-packed breakfast.</p>
+        <button class="add-btn">Add to Cart</button>
+      </article>
+
+      <article class="grocery">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2022/3/WQ/FT/ID/3642811/1kg-tata-salt-packet-500x500.jpg" alt="Salt" />
+        <h3>Salt (1kg)</h3>
+        <p class="price">₹25</p>
+        <p class="desc">Iodized salt for healthy meals.</p>
+        <button class="add-btn">Add to Cart</button>
+      </article>
+
+      <article class="grocery">
+        <img src="https://desigourmet.es/cdn/shop/products/Lifebuoysoap_cd0bd7bc-84f1-46bc-9c9f-71654354cd4d_1024x1024@2x.jpg?v=1662045039" alt="Soap" />
+        <h3>Soap (Pack of 3)</h3>
+        <p class="price">₹70</p>
+        <p class="desc">Gentle bathing soap with long-lasting fragrance.</p>
+        <button class="add-btn">Add to Cart</button>
+      </article>
+
+      <article class="grocery">
+        <img src="http://pluspng.com/img-png/png-shampoo-shampoo-png-1134.png" alt="Shampoo" />
+        <h3>Shampoo (200ml)</h3>
+        <p class="price">₹172</p>
+        <p class="desc">Herbal shampoo for smooth and shiny hair.</p>
+        <button class="add-btn">Add to Cart</button>
+      </article>
     </div>
-  </section>
 
-  <section class="menu-section">
-    <h2>Popular Dishes</h2>
-    <div class="menu-items">
-
-      <!-- 20 Dishes with Real Images -->
-      <div class="menu-card">
-        <img src="https://i0.wp.com/gomathirecipes.com/wp-content/uploads/2022/08/3297.jpg?fit=1200%2C800&ssl=1" alt="Sambar Idly">
-        <h3>Sambar Idly</h3>
-      </div>
-
-      <div class="menu-card">
-        <img src="https://imgmedia.lbb.in/media/2019/06/5cf5fa110f91d91bef79433c_1559624209011.jpg" alt="South Indian Meals">
-        <h3>South Indian Meals</h3>
-      </div>
-
-      <div class="menu-card">
-        <img src="https://tse1.mm.bing.net/th/id/OIP.F0wSkwfP1ODfH1-tLW9O4gHaD-?pid=Api&P=0&h=180" alt="North Indian Meals">
-        <h3>North Indian Meals</h3>
-      </div>
-
-      <div class="menu-card">
-        <img src="https://i.ytimg.com/vi/u9ppMPIRkrw/maxresdefault.jpg" alt="Ghee Dosa">
-        <h3>Ghee Dosa</h3>
-      </div>
-
-      <div class="menu-card">
-        <img src="http://www.vegrecipesofkarnataka.com/assets/img/mosaru-vade/mosaru-vade-recipe.jpg" alt="Medu Vada">
-        <h3>Curd Wada</h3>
-      </div>
-
-      <div class="menu-card">
-        <img src="http://2.bp.blogspot.com/-eR_VwY7GOX4/Vac_G5GUQPI/AAAAAAAAUxg/8rBXXxx6xVY/s1600/Chicken%2BHyderabadi%2BBiryani%2B%25286%2529%2B-%2B1.jpg" alt="Hyderabadi Biryani">
-        <h3>Hyderabadi Biryani</h3>
-      </div>
-
-      <div class="menu-card">
-        <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/01/pongal-ven-pongal.jpg" alt="Ven Pongal">
-        <h3>pulagam</h3>
-      </div>
-
-      <div class="menu-card">
-        <img src="https://tse2.mm.bing.net/th/id/OIP.jX36c7awxClSOa0iEMNaIQAAAA?pid=Api&P=0&h=180" alt="Chapati Curry">
-        <h3>Chapati & Curry</h3>
-      </div>
-
-      <div class="menu-card">
-        <img src="https://yummyindiankitchen.com/wp-content/uploads/2016/09/curd-rice-recipe.jpg" alt="Curd Rice">
-        <h3>Curd Rice</h3>
-      </div>
-
-      <div class="menu-card">
-        <img src="https://www.cookwithkushi.com/wp-content/uploads/2019/09/best_lemon_rice_chitranna_recipe.jpg" alt="Lemon Rice">
-        <h3>Lemon Rice</h3>
-      </div>
-
-      <div class="menu-card">
-        <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/poori-puri-recipe.jpg" alt="Puri Masala">
-        <h3>Puri Masala</h3>
-      </div>
-
-      <div class="menu-card">
-        <img src="https://c8.alamy.com/comp/AF1WW3/idiyappam-and-vegetable-stew-kerala-cuisine-AF1WW3.jpg" alt="Idiyappam">
-        <h3>Idiyappam & Stew</h3>
-      </div>
-    
-      <div class="menu-card">
-        <img src="https://ranveerbrar.com/wp-content/uploads/2021/02/Masala-dosa-scaled.jpg" alt="Masala Dosa">
-        <h3>Masala Dosa</h3>
-      </div>
-
-      <div class="menu-card">
-        <img src="https://revi.b-cdn.net/wp-content/uploads/2015/05/onion-uttapam-main.jpg" alt="Onion Uthappam">
-        <h3>Onion Uthappam</h3>
-      </div>
-
-      <div class="menu-card">
-        <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2013/01/mixed-vegetable-curry-09.jpg" alt="Veg Curry">
-        <h3>Mixed Veg Curry</h3>
-      </div>
-
-      <div class="menu-card">
-        <img src="https://theyummydelights.com/wp-content/uploads/2020/02/gobi-manchurian-8.jpg" alt="Gobi Manchurian">
-        <h3>Gobi Manchurian</h3>
-      </div>
-
-      <div class="menu-card">
-        <img src="http://www.kannammacooks.com/wp-content/uploads/sambar-sadam-sambar-rice.jpg" alt="Sambar Rice">
-        <h3>Sambar Rice</h3>
-      </div>
-
-      <div class="menu-card">
-        <img src="https://bakewithzoha.com/wp-content/uploads/2023/04/gulab-jamun-featured.jpg" alt="Gulab Jamun">
-        <h3>Gulab Jamun</h3>
-      </div>
-
-    </div>
-  </section>
+    <section class="quote-section">
+      <h3>“From Farmers’ Fields to Families’ Tables.”</h3>
+      <p><i>— SmartGrocer celebrates the hard work of our Traditional FF Labours,  
+      who nourish every home with love, effort, and dedication.</i></p>
+    </section>
+  </main>
 
   <footer>
-    <p>© 2025 Vivaha Bhojanambu. Made with ❤️ in India.</p>
+    <p>© 2025 SmartGrocer | Designed by K. Sai Krishna Kumar | Upskill Campus Internship Project</p>
   </footer>
+
+  <!-- ✅ Added backend connection -->
+  <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,362 @@
+[
+  {
+    "name": "Rice (1kg)",
+    "price": "95",
+    "desc": "Premium quality white rice.",
+    "image": "https://m.media-amazon.com/images/I/71LzgQLUJsL.jpg"
+  },
+  {
+    "name": "Wheat Flour (1kg)",
+    "price": "45",
+    "desc": "Freshly milled wheat flour for soft chapatis.",
+    "image": "https://i5.walmartimages.com/seo/King-Arthur-Flour-100-Premium-Whole-Wheat-Flour-80-oz_c0e301df-ccba-45ad-a6d1-a2705f30ad74.af51f0757945efc404ff49be2189e826.png"
+  },
+  {
+    "name": "Freedom oil (1L)",
+    "price": "150",
+    "desc": "Refined sunflower oil for daily use.",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2021/7/GU/UR/LF/134036991/freedom-oil-jpg-500x500.jpg"
+  },
+  {
+    "name": "Sugar (1kg)",
+    "price": "50",
+    "desc": "Pure white granulated sugar.",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.Ja-f1RjQ1hbigDuy09d0EQHaIq?pid=Api&P=0&h=180"
+  },
+  {
+    "name": "Tea Powder (250g)",
+    "price": "20",
+    "desc": "Strong aroma tea powder for refreshing taste.",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.FSJypuZdDiv80gUjxBmQRQHaHa?pid=Api&P=0&h=180"
+  },
+  {
+    "name": "Milk (1L)",
+    "price": "30",
+    "desc": "Fresh and pure pasteurized milk.",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.rslrsuiAnuPNJSVjmCBWJgHaHa?pid=Api&P=0&h=180"
+  },
+  {
+    "name": "Eggs (6 pcs)",
+    "price": "60",
+    "desc": "Farm fresh eggs for a protein-packed breakfast.",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.i40ZHGuDErYGudmOg9db6QHaEK?pid=Api&P=0&h=180"
+  },
+  {
+    "name": "Salt (1kg)",
+    "price": "25",
+    "desc": "Iodized salt for healthy meals.",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2022/3/WQ/FT/ID/3642811/1kg-tata-salt-packet-500x500.jpg"
+  },
+  {
+    "name": "Soap (Pack of 3)",
+    "price": "70",
+    "desc": "Gentle bathing soap with long-lasting fragrance.",
+    "image": "https://desigourmet.es/cdn/shop/products/Lifebuoysoap_cd0bd7bc-84f1-46bc-9c9f-71654354cd4d_1024x1024@2x.jpg?v=1662045039"
+  },
+  {
+    "name": "Shampoo (200ml)",
+    "price": "172",
+    "desc": "Herbal shampoo for smooth and shiny hair.",
+    "image": "http://pluspng.com/img-png/png-shampoo-shampoo-png-1134.png"
+  },
+  {
+    "name": "Rice (1kg)",
+    "price": "95",
+    "desc": "Premium quality white rice.",
+    "image": "https://m.media-amazon.com/images/I/71LzgQLUJsL.jpg"
+  },
+  {
+    "name": "Wheat Flour (1kg)",
+    "price": "45",
+    "desc": "Freshly milled wheat flour for soft chapatis.",
+    "image": "https://i5.walmartimages.com/seo/King-Arthur-Flour-100-Premium-Whole-Wheat-Flour-80-oz_c0e301df-ccba-45ad-a6d1-a2705f30ad74.af51f0757945efc404ff49be2189e826.png"
+  },
+  {
+    "name": "Freedom oil (1L)",
+    "price": "150",
+    "desc": "Refined sunflower oil for daily use.",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2021/7/GU/UR/LF/134036991/freedom-oil-jpg-500x500.jpg"
+  },
+  {
+    "name": "Sugar (1kg)",
+    "price": "50",
+    "desc": "Pure white granulated sugar.",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.Ja-f1RjQ1hbigDuy09d0EQHaIq?pid=Api&P=0&h=180"
+  },
+  {
+    "name": "Tea Powder (250g)",
+    "price": "20",
+    "desc": "Strong aroma tea powder for refreshing taste.",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.FSJypuZdDiv80gUjxBmQRQHaHa?pid=Api&P=0&h=180"
+  },
+  {
+    "name": "Milk (1L)",
+    "price": "30",
+    "desc": "Fresh and pure pasteurized milk.",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.rslrsuiAnuPNJSVjmCBWJgHaHa?pid=Api&P=0&h=180"
+  },
+  {
+    "name": "Eggs (6 pcs)",
+    "price": "60",
+    "desc": "Farm fresh eggs for a protein-packed breakfast.",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.i40ZHGuDErYGudmOg9db6QHaEK?pid=Api&P=0&h=180"
+  },
+  {
+    "name": "Salt (1kg)",
+    "price": "25",
+    "desc": "Iodized salt for healthy meals.",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2022/3/WQ/FT/ID/3642811/1kg-tata-salt-packet-500x500.jpg"
+  },
+  {
+    "name": "Soap (Pack of 3)",
+    "price": "70",
+    "desc": "Gentle bathing soap with long-lasting fragrance.",
+    "image": "https://desigourmet.es/cdn/shop/products/Lifebuoysoap_cd0bd7bc-84f1-46bc-9c9f-71654354cd4d_1024x1024@2x.jpg?v=1662045039"
+  },
+  {
+    "name": "Shampoo (200ml)",
+    "price": "172",
+    "desc": "Herbal shampoo for smooth and shiny hair.",
+    "image": "http://pluspng.com/img-png/png-shampoo-shampoo-png-1134.png"
+  },
+  {
+    "name": "Rice (1kg)",
+    "price": "95",
+    "desc": "Premium quality white rice.",
+    "image": "https://m.media-amazon.com/images/I/71LzgQLUJsL.jpg"
+  },
+  {
+    "name": "Wheat Flour (1kg)",
+    "price": "45",
+    "desc": "Freshly milled wheat flour for soft chapatis.",
+    "image": "https://i5.walmartimages.com/seo/King-Arthur-Flour-100-Premium-Whole-Wheat-Flour-80-oz_c0e301df-ccba-45ad-a6d1-a2705f30ad74.af51f0757945efc404ff49be2189e826.png"
+  },
+  {
+    "name": "Freedom oil (1L)",
+    "price": "150",
+    "desc": "Refined sunflower oil for daily use.",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2021/7/GU/UR/LF/134036991/freedom-oil-jpg-500x500.jpg"
+  },
+  {
+    "name": "Sugar (1kg)",
+    "price": "50",
+    "desc": "Pure white granulated sugar.",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.Ja-f1RjQ1hbigDuy09d0EQHaIq?pid=Api&P=0&h=180"
+  },
+  {
+    "name": "Rice (1kg)",
+    "price": "95",
+    "desc": "Premium quality white rice.",
+    "image": "https://m.media-amazon.com/images/I/71LzgQLUJsL.jpg"
+  },
+  {
+    "name": "Rice (1kg)",
+    "price": "95",
+    "desc": "Premium quality white rice.",
+    "image": "https://m.media-amazon.com/images/I/71LzgQLUJsL.jpg"
+  },
+  {
+    "name": "Wheat Flour (1kg)",
+    "price": "45",
+    "desc": "Freshly milled wheat flour for soft chapatis.",
+    "image": "https://i5.walmartimages.com/seo/King-Arthur-Flour-100-Premium-Whole-Wheat-Flour-80-oz_c0e301df-ccba-45ad-a6d1-a2705f30ad74.af51f0757945efc404ff49be2189e826.png"
+  },
+  {
+    "name": "Freedom oil (1L)",
+    "price": "150",
+    "desc": "Refined sunflower oil for daily use.",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2021/7/GU/UR/LF/134036991/freedom-oil-jpg-500x500.jpg"
+  },
+  {
+    "name": "Sugar (1kg)",
+    "price": "50",
+    "desc": "Pure white granulated sugar.",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.Ja-f1RjQ1hbigDuy09d0EQHaIq?pid=Api&P=0&h=180"
+  },
+  {
+    "name": "Rice (1kg)",
+    "price": "95",
+    "desc": "Premium quality white rice.",
+    "image": "https://m.media-amazon.com/images/I/71LzgQLUJsL.jpg"
+  },
+  {
+    "name": "Wheat Flour (1kg)",
+    "price": "45",
+    "desc": "Freshly milled wheat flour for soft chapatis.",
+    "image": "https://i5.walmartimages.com/seo/King-Arthur-Flour-100-Premium-Whole-Wheat-Flour-80-oz_c0e301df-ccba-45ad-a6d1-a2705f30ad74.af51f0757945efc404ff49be2189e826.png"
+  },
+  {
+    "name": "Freedom oil (1L)",
+    "price": "150",
+    "desc": "Refined sunflower oil for daily use.",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2021/7/GU/UR/LF/134036991/freedom-oil-jpg-500x500.jpg"
+  },
+  {
+    "name": "Sugar (1kg)",
+    "price": "50",
+    "desc": "Pure white granulated sugar.",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.Ja-f1RjQ1hbigDuy09d0EQHaIq?pid=Api&P=0&h=180"
+  },
+  {
+    "name": "Tea Powder (250g)",
+    "price": "20",
+    "desc": "Strong aroma tea powder for refreshing taste.",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.FSJypuZdDiv80gUjxBmQRQHaHa?pid=Api&P=0&h=180"
+  },
+  {
+    "name": "Milk (1L)",
+    "price": "30",
+    "desc": "Fresh and pure pasteurized milk.",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.rslrsuiAnuPNJSVjmCBWJgHaHa?pid=Api&P=0&h=180"
+  },
+  {
+    "name": "Eggs (6 pcs)",
+    "price": "60",
+    "desc": "Farm fresh eggs for a protein-packed breakfast.",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.i40ZHGuDErYGudmOg9db6QHaEK?pid=Api&P=0&h=180"
+  },
+  {
+    "name": "Salt (1kg)",
+    "price": "25",
+    "desc": "Iodized salt for healthy meals.",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2022/3/WQ/FT/ID/3642811/1kg-tata-salt-packet-500x500.jpg"
+  },
+  {
+    "name": "Soap (Pack of 3)",
+    "price": "70",
+    "desc": "Gentle bathing soap with long-lasting fragrance.",
+    "image": "https://desigourmet.es/cdn/shop/products/Lifebuoysoap_cd0bd7bc-84f1-46bc-9c9f-71654354cd4d_1024x1024@2x.jpg?v=1662045039"
+  },
+  {
+    "name": "Shampoo (200ml)",
+    "price": "172",
+    "desc": "Herbal shampoo for smooth and shiny hair.",
+    "image": "http://pluspng.com/img-png/png-shampoo-shampoo-png-1134.png"
+  },
+  {
+    "name": "Rice (1kg)",
+    "price": "95",
+    "desc": "Premium quality white rice.",
+    "image": "https://m.media-amazon.com/images/I/71LzgQLUJsL.jpg"
+  },
+  {
+    "name": "Wheat Flour (1kg)",
+    "price": "45",
+    "desc": "Freshly milled wheat flour for soft chapatis.",
+    "image": "https://i5.walmartimages.com/seo/King-Arthur-Flour-100-Premium-Whole-Wheat-Flour-80-oz_c0e301df-ccba-45ad-a6d1-a2705f30ad74.af51f0757945efc404ff49be2189e826.png"
+  },
+  {
+    "name": "Freedom oil (1L)",
+    "price": "150",
+    "desc": "Refined sunflower oil for daily use.",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2021/7/GU/UR/LF/134036991/freedom-oil-jpg-500x500.jpg"
+  },
+  {
+    "name": "Sugar (1kg)",
+    "price": "50",
+    "desc": "Pure white granulated sugar.",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.Ja-f1RjQ1hbigDuy09d0EQHaIq?pid=Api&P=0&h=180"
+  },
+  {
+    "name": "Tea Powder (250g)",
+    "price": "20",
+    "desc": "Strong aroma tea powder for refreshing taste.",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.FSJypuZdDiv80gUjxBmQRQHaHa?pid=Api&P=0&h=180"
+  },
+  {
+    "name": "Milk (1L)",
+    "price": "30",
+    "desc": "Fresh and pure pasteurized milk.",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.rslrsuiAnuPNJSVjmCBWJgHaHa?pid=Api&P=0&h=180"
+  },
+  {
+    "name": "Eggs (6 pcs)",
+    "price": "60",
+    "desc": "Farm fresh eggs for a protein-packed breakfast.",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.i40ZHGuDErYGudmOg9db6QHaEK?pid=Api&P=0&h=180"
+  },
+  {
+    "name": "Salt (1kg)",
+    "price": "25",
+    "desc": "Iodized salt for healthy meals.",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2022/3/WQ/FT/ID/3642811/1kg-tata-salt-packet-500x500.jpg"
+  },
+  {
+    "name": "Soap (Pack of 3)",
+    "price": "70",
+    "desc": "Gentle bathing soap with long-lasting fragrance.",
+    "image": "https://desigourmet.es/cdn/shop/products/Lifebuoysoap_cd0bd7bc-84f1-46bc-9c9f-71654354cd4d_1024x1024@2x.jpg?v=1662045039"
+  },
+  {
+    "name": "Shampoo (200ml)",
+    "price": "172",
+    "desc": "Herbal shampoo for smooth and shiny hair.",
+    "image": "http://pluspng.com/img-png/png-shampoo-shampoo-png-1134.png"
+  },
+  {
+    "name": "Rice (1kg)",
+    "price": "95",
+    "desc": "Premium quality white rice.",
+    "image": "https://m.media-amazon.com/images/I/71LzgQLUJsL.jpg"
+  },
+  {
+    "name": "Wheat Flour (1kg)",
+    "price": "45",
+    "desc": "Freshly milled wheat flour for soft chapatis.",
+    "image": "https://i5.walmartimages.com/seo/King-Arthur-Flour-100-Premium-Whole-Wheat-Flour-80-oz_c0e301df-ccba-45ad-a6d1-a2705f30ad74.af51f0757945efc404ff49be2189e826.png"
+  },
+  {
+    "name": "Freedom oil (1L)",
+    "price": "150",
+    "desc": "Refined sunflower oil for daily use.",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2021/7/GU/UR/LF/134036991/freedom-oil-jpg-500x500.jpg"
+  },
+  {
+    "name": "Sugar (1kg)",
+    "price": "50",
+    "desc": "Pure white granulated sugar.",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.Ja-f1RjQ1hbigDuy09d0EQHaIq?pid=Api&P=0&h=180"
+  },
+  {
+    "name": "Tea Powder (250g)",
+    "price": "20",
+    "desc": "Strong aroma tea powder for refreshing taste.",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.FSJypuZdDiv80gUjxBmQRQHaHa?pid=Api&P=0&h=180"
+  },
+  {
+    "name": "Milk (1L)",
+    "price": "30",
+    "desc": "Fresh and pure pasteurized milk.",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.rslrsuiAnuPNJSVjmCBWJgHaHa?pid=Api&P=0&h=180"
+  },
+  {
+    "name": "Eggs (6 pcs)",
+    "price": "60",
+    "desc": "Farm fresh eggs for a protein-packed breakfast.",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.i40ZHGuDErYGudmOg9db6QHaEK?pid=Api&P=0&h=180"
+  },
+  {
+    "name": "Salt (1kg)",
+    "price": "25",
+    "desc": "Iodized salt for healthy meals.",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2022/3/WQ/FT/ID/3642811/1kg-tata-salt-packet-500x500.jpg"
+  },
+  {
+    "name": "Soap (Pack of 3)",
+    "price": "70",
+    "desc": "Gentle bathing soap with long-lasting fragrance.",
+    "image": "https://desigourmet.es/cdn/shop/products/Lifebuoysoap_cd0bd7bc-84f1-46bc-9c9f-71654354cd4d_1024x1024@2x.jpg?v=1662045039"
+  },
+  {
+    "name": "Shampoo (200ml)",
+    "price": "172",
+    "desc": "Herbal shampoo for smooth and shiny hair.",
+    "image": "http://pluspng.com/img-png/png-shampoo-shampoo-png-1134.png"
+  },
+  {
+    "name": "Rice (1kg)",
+    "price": "95",
+    "desc": "Premium quality white rice.",
+    "image": "https://m.media-amazon.com/images/I/71LzgQLUJsL.jpg"
+  }
+]
